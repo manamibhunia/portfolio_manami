@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+  		<title>Manami's</title>
+  		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<link rel="stylesheet" href="./css/main.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="jumbotron text-center header">
+  			<h1 id="heading">Manami Bhunia</h1>
+ 			<p>" The first principle is that you must not fool yourself and you are the easiest person to fool."</p>
+ 			<p>- Richard P. Feynman </p>
+		</div>
+		<div class="container-fluid main-body">
+  			<a href="#resume-modal" data-toggle="modal" class="link"><p id="text1">Resume</p></a>
+  			<a href="#experience-modal" data-toggle="modal" class="link"><p id="text2">Relevant<br>Experience</p></a>
+  			<a href="#project-modal" data-toggle="modal" class="link"><p id="text3">Projects</p></a>
+  			<a href="#about-modal" data-toggle="modal" class="link"><p id="text4">Who Am I</p></a>
+  			<a href="#contact-modal" data-toggle="modal" class="link"><p id="text5">Contact</p></a>
+		</div>
+		<div class="modal fade " id="resume-modal" role="dialog">
+    		<div class="modal-dialog modal-main-body">
+    		<!-- Resume Modal content-->
+     			<div class="modal-content">
+        			<div class="modal-header">
+          				<button type="button" class="close" data-dismiss="modal">&times;</button>
+          				<h4 class="modal-title">Resume</h4>
+        			</div>
+        			<div class="modal-body">
+         				
+         				<embed src="./doc/Bhunia_Manami-Resume.pdf" height="700px" width="700px" type="application/pdf">
+        			</div>
+        			<div class="modal-footer">
+         				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        			</div>
+      			</div>
+    		</div>
+  		</div>
+
+  		<div class="modal fade " id="experience-modal" role="dialog">
+    		<div class="modal-dialog modal-main-body">
+    		<!-- Experience Modal content-->
+     			<div class="modal-content">
+        			<div class="modal-header">
+          				<button type="button" class="close" data-dismiss="modal">&times;</button>
+          				<h4 class="modal-title">Software Engineering Intern @ a Stealth StartUp</h4>
+          				<h5> September'15 - December'15</h5>
+        			</div>
+        			<div class="modal-body">
+         				
+         				<h5>Worked on their main product; a Meteor.js application which is in stealth mode and about to launch.</h5>
+         				<ul>
+							<li>Designed Model layer using Jagi Astronomy for MongoDB collections.</li>
+							<li>Built a prototype application using Iron-Router and later migrated to Flow-Router.</li>
+							<li>Tested UI components using Jasmine.</li>
+							<li>Developed an interactive wireframe using Axure.</li>
+						</ul>
+						
+						<div class="well">
+						 <h5 align="center">The experience added a little more to my life</h5>
+							<p>I learned how to work in a startup culture and how whole heartedly all the employees research and develop a product together. Everyday scrums were so productive. We used to discuss about everyone’s work and progress and used to give feedback on everyone. While working in there, I realized it's not just about the technology stack we were going to use or the money we were going to earn, it was more about doing something amazing together, having mentality to take risks and going beyond the boundary.
+							</p>
+						</div>	
+        			</div>
+        			<div class="modal-footer">
+         				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        			</div>
+      			</div>
+    		</div>
+  		</div>
+		<div class="modal fade " id="project-modal" role="dialog">
+		    		<div class="modal-dialog modal-main-body">
+		    		<!-- Projects Modal content-->
+		     			<div class="modal-content">
+		        			<div class="modal-header">
+		          				<button type="button" class="close" data-dismiss="modal">&times;</button>
+		          				<h4 class="modal-title">Projects</h4>
+		        			</div>
+		        			<div class="modal-body">
+		         				<div class="panel panel-default">
+  									<div class="panel-heading">
+    									<h3 class="panel-title">FaceApp: An Application that knows your Face</h3>
+  									</div>
+  									<div class="panel-body">
+  										<ul>
+	    									<li>Developed the front end using ReactJS, ES6 and Redux for a face recognition system in Master’s project coursework.</li>
+											<li>Used Webpack as build tool.</li>
+	 										<li>Mocha and Enzyme were for testing React components.</li>
+	 									</ul>
+	 									<a href="https://bitbucket.org/manamibhunia/faceapp" target="_blanck">Bit Bucket</a>										
+  									</div>
+								</div>
+								<div class="panel panel-default">
+  									<div class="panel-heading">
+    									<h3 class="panel-title">MovieWala: Movie Recommendation System</h3>
+  									</div>
+  									<div class="panel-body">
+  										<p>This Recommendation System generates meaningful recommendations of a collection of movies. Incorporated the OMDB API to display the movie details such as ratings, awards etc. Integrated twitter sentiment analysis on the basis of current twitter feeds about the movies.
+  										</p>
+  										<ul>
+	    									<li>Created responsive UI using Twitter-Bootstrap, jQuery, Handlebars templates.
+	    									</li>
+											<li>Built a recommendation engine based on collaborative filtering and on top of Node.js.
+											</li>
+	 										<li>This Recommendation engine uses Jaccard Coefficient to compute the similarity between users and k-nearest-neighbors to create recommendations.
+	 										</li>
+	 									</ul>
+	 									<a href="https://bitbucket.org/manamibhunia/moviewala_movie_recommendation" target="_blanck">Bit Bucket</a>	
+  									</div>
+								</div>
+								<div class="panel panel-default">
+  									<div class="panel-heading">
+    									<h3 class="panel-title">Edesia: A Doordash Prototype</h3>
+  									</div>
+  									<div class="panel-body">
+  										<p>Edesia is a web application to provide users the information about home based catering services. People can search by zip code, city or cuisine for getting details of catering services nearby along with the details of cuisines and their prices. Online order and payment was also available.
+  										</p>
+  										<ul>
+	    									<li>Developed a fancy and responsive UI using Twitter-Bootstrap, jQuery, Handlebars templates, AJAX and JSON.
+	    									</li>
+											<li>Developed REST services using Node and Express. Implemented CRUD operations using MySQL.
+											</li>
+										</ul>
+ 										<a href="https://github.com/manamibhunia/edesia" target="_blanck">Git Hub</a>
+ 									</div>
+								</div>
+								<div class="panel panel-default">
+  									<div class="panel-heading">
+    									<h3 class="panel-title">CitizenSpot</h3>
+  									</div>
+  									<div class="panel-body">
+  										<p>CitizenSpot is a web application to help the citizens of any locality to locate infrastructure problems such as potholes, broken pipes, broken streetlights etc. and re-plan their routes accordingly. The users of the application can submit the problems and Google Map shows exact location of the problem spotted.</p>
+  										<ul>
+	    									<li>Created an attractive and responsive UI using Twitter-Bootstrap, jQuery, Handlebars templates, AJAX and JSON.
+	    									</li>
+											<li>Implemented REST services using JAVA/JERSEY. Implemented CRUD operations using JDBC and MySQL.
+											</li>
+											<li>Deployed the application in Amazon EC2 and monitored for smooth operation.
+											</li>
+										</ul>
+ 										<a href="https://github.com/manamibhunia/cmpe272-citizen-spot" target="_blanck">Git Hub</a>
+  									</div>
+								</div>	
+								<div class="panel panel-default">
+  									<div class="panel-heading">
+    									<h3 class="panel-title">BonyZone: Online Shopping Cart:</h3>
+  									</div>
+  									<div class="panel-body">
+  										<ul>
+	    									<li>Built a 3-tier e-shopping application for the exposure to the MEAN stack development and REST API.
+	    									</li>
+											<li>Fabricated operations such as buying multiple items and cancelling them, inventory management and payment.
+											</li>
+	 										<li>The back end was designed in such a way so that inventory could be handled by MongoDB and transactions could be handled in MySQL.
+	 										</li>
+	 									</ul>
+ 										<a href="https://bitbucket.org/manamibhunia/cmpe273" target="_blanck">Bit Bucket 1</a>
+ 										<a href="https://bitbucket.org/manamibhunia/bonyzone-restful" target="_blanck">Bit Bucket 2</a>
+  									</div>
+  								</div>
+		        			</div>
+		        			<div class="modal-footer">
+		         				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        			</div>
+		      			</div>
+		    		</div>
+		  		</div>
+
+		  		<div class="modal fade " id="about-modal" role="dialog">
+    		<div class="modal-dialog modal-main-body">
+    		<!-- About Me Modal content-->
+     			<div class="modal-content">
+        			<div class="modal-header">
+          				<button type="button" class="close" data-dismiss="modal">&times;</button>
+          				<h4 class="modal-title">Software Engineering Grad</h4>
+          				<h5>Ardent about working in a challenging and fast growing environment.</h5>	
+        			</div>
+        			<div class="modal-body">
+        				<div class="well">
+	         				<h5>Hi Manami here. I find the best way to describe myself is by doing this! On a scale from 1 - 10, 10 being the highest.
+	         				</h5>
+	         				<div class="row">
+	  							<div class="col-md-6">
+	   								<a href="#" class="thumbnail"><img src="./images/me.jpg" alt="Manami"></a>
+	  							</div>
+								<div class="col-md-6">
+
+									<button class="btn btn-primary about-me-button" type="button">Creative<span class="badge about-me">  7 </span>
+									</button>
+									<button class="btn btn-primary about-me-button" type="button">Fast Learner<span class="badge about-me">  8 </span>
+									</button>
+									<button class="btn btn-primary about-me-button" type="button">JavaScript Idolizer<span class="badge about-me">  9 </span>
+									</button>
+									<button class="btn btn-primary about-me-button" type="button">Experiment Lover<span class="badge about-me">  10 </span>
+									</button>
+									<button class="btn btn-primary about-me-button" type="button">Problem Solver<span class="badge about-me">  8 </span>
+									</button>
+									<button class="btn btn-primary about-me-button" type="button">Curious<span class="badge about-me"> 
+									 10 </span>
+									</button>
+									<button class="btn btn-primary about-me-button" type="button">Focussed<span class="badge about-me">  7 </span>
+									</button>
+									<button class="btn btn-primary about-me-button" type="button">Perseverant<span class="badge about-me">  8 </span>
+									</button>
+									<button class="btn btn-primary about-me-button" type="button">Science Worshiper<span class="badge about-me">  10 </span>
+									</button>
+									<button class="btn btn-primary about-me-button" type="button">Attentive<span class="badge about-me">  7 </span>
+									</button>
+									<button class="btn btn-primary about-me-button" type="button">Amenable<span class="badge about-me">  7 </span>
+									</button>
+									<button class="btn btn-primary about-me-button" type="button">Pragmatic<span class="badge about-me">  7 </span>
+									</button>
+									<button class="btn btn-primary about-me-button" type="button">Perfectionist<span class="badge about-me">  9 </span>
+									</button>
+									<button class="btn btn-primary about-me-button" type="button">Feynman Worshiper<span class="badge about-me">  8 </span>
+									</button>
+									<button class="btn btn-primary about-me-button" type="button">Biker<span class="badge about-me">  6 </span>
+									</button>
+									<button class="btn btn-primary about-me-button" type="button">Food Enthusiast<span class="badge about-me">  7 </span>
+									</button>
+									<button class="btn btn-primary about-me-button" type="button">Book Lover<span class="badge about-me">  9 </span>
+									</button>
+								</div>
+							</div>
+						</div>       				
+        			</div>
+        			<div class="modal-footer">
+         				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        			</div>
+      			</div>
+    		</div>
+  		</div>
+
+  		<div class="modal fade " id="contact-modal" role="dialog">
+    		<div class="modal-dialog modal-main-body">
+    		<!-- Contact Modal content-->
+     			<div class="modal-content">
+        			<div class="modal-header">
+          				<button type="button" class="close" data-dismiss="modal">&times;</button>
+          				<h4 class="modal-title">Get in touch with me</h4>
+          				
+        			</div>
+        			<div class="modal-body">
+        				<div class="well">
+	         				<ul class="contact-list">
+								<li>
+									<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+									Email: <a href="mailto:manami.bhunia@outlook.com" target="_top">manami.bhunia@outlook.com</a>
+								</li>
+								<li>
+									<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+									Mobile: +1(408)-507-7789
+								</li>
+								<li>
+									<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>  Sunnyvale, CA - 94087
+								</li>
+							</ul>
+						</div>
+        			</div>
+        			<div class="modal-footer">
+         				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        			</div>
+      			</div>
+    		</div>
+  		</div>
+
+		<nav class="navbar navbar-default navbar-fixed-bottom ">
+			
+  			<div class="container-fluid footer">
+    			<a href="https://www.linkedin.com/in/manami-bhunia-28a22760" target="_blank"><span class="label label-default">LinkedIn</span></a>
+				<a href="https://github.com/manamibhunia" target="_blank"><span class="label label-default">Github</span></a>
+				<a href="https://angel.co/manami-bhunia" target="_blank"><span class="label label-default">AngelList</span></a>
+				<a href="https://twitter.com/bebonnys" target="_blank"><span class="label label-default">Twitter</span></a>
+				<a href="https://www.facebook.com/manami.bhunia" target="_blank"><span class="label label-default">Facebook</span></a>
+				<a href="https://www.instagram.com/bebonnys/" target="_blank"><span class="label label-default">Instagram</span></a>
+  			</div>
+  			<div class="container-fluid footer-mid">
+				<p>© Manami Bhunia 2016. All Rights Reserved</p>
+			</div>
+		</nav>
+	</body>
+</html>

@@ -1,0 +1,119 @@
+body { 
+	padding-bottom: 70px; 
+}
+
+.header {
+	height: 250px;
+}
+
+.main-body {
+	background-image: url("../images/background.png");
+	background-repeat: no-repeat;
+	height: 500px;
+  width: 100%; 
+  background-size:contain;
+  background-position:center;
+  position: absolute;
+  margin-top: -1%;
+
+}
+
+#heading {
+	color: black;
+	
+}
+
+#text1 {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 1.5vw;
+  font-weight: bold;
+  left: 9%;
+  top: 35%;
+}
+
+#text2 {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 1.5vw;
+  font-weight: bold;
+  left: 26%;
+  top: 35%;
+}
+
+#text3 {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 1.5vw;
+  font-weight: bold;
+  left: 45.5%;
+  top: 35%;
+}
+
+#text4 {
+  z-index: 100;
+  position: absolute;
+  color: black;
+  font-size: 1.5vw;
+  font-weight: bold;
+  left: 64.5%;
+  top: 35%;
+}
+
+#text5 {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 1.5vw;
+  font-weight: bold;
+  left: 85%;
+  top: 35%;
+}
+.modal-main-body {
+	width: 750px;
+	height: 750px;
+}
+
+.about-me-button {
+	color: black;
+	background-color: gray;
+	border-color: black;
+	margin-bottom: 6px;
+	border-radius: 2em;
+
+}
+
+.about-me-button .badge {
+	color: #000;
+	margin-left: 4px;
+}
+
+.about-me-button:hover{
+	background-color:gray;
+
+}
+
+.about-me {
+	background-color: black;
+}
+.footer {
+	
+	 float: center;
+	 margin-left: 38%; 
+	 margin-top: 0.3%
+	 
+	 
+}
+.footer-mid {
+	margin-left: 40%;
+	margin-top: 0.3%;
+	margin-bottom: -0.3%
+	
+}
+
+.contact-list li {
+	margin-bottom: 5px;
+}
